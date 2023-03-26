@@ -11,6 +11,7 @@ const querryBlock = async () =>{
     console.log("Balance amount: ", balance);
     const balanceInEther = ethers.utils.formatEther(balance);
     console.log("Balance amount in ETH: ", balanceInEther);
+    
     const balanceInWei = ethers.utils.parseEther(balanceInEther);
     console.log("Balance amount in WEI: ", balanceInWei.toString());
 }
